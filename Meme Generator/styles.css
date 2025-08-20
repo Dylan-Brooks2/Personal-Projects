@@ -1,0 +1,42 @@
+/* Write code below 💖 */
+body {
+  text-align: center;
+  background-color: rgb(186, 210, 186)
+}
+
+h1 {
+    color: white;
+}
+
+#generator-button {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(112, 147, 112);
+  background-color: white
+}
+
+#meme-wrapper {
+  border: 4px solid white;
+  width: 700px;
+  height: 500px;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+#random-meme {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#random-caption {
+  margin: 0;
+  color:rgb(75, 106, 75);
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
