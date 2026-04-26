@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dylan's CSS Component Library</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="site-wrapper">
+        <h1 id = "Title">Mini CSS Component Library</h1>
+
+        <div class = "Navigation">
+            <section class = "Nav-Bar">
+                    <h2 id = "Nav-Title">Navigation Bar</h2>
+
+                    <nav id = "Nav-Buttons">
+                        <a href="#Buttons">Buttons</a>
+                        <a href="#Card">Card</a>
+                        <a href="#Form">Form</a>
+                    </nav>
+            </section>
+        </div>
+
+        <section id = "Buttons">
+            <div class = "Button-Content">
+                <h2 id = "Buttons-Title">Buttons</h2>
+                <button class="btn primary">Primary Button</button>
+                <button class="btn secondary">Secondary Button</button>
+            </div>
+        </section>
+
+        <section id ="Card"> 
+            <h2>Card</h2>
+            <div class="card">
+                <h3>Card Title</h3>
+                <p>A simple card component</p>
+            </div>
+        </section>
+
+        <section id = "Form">
+            <h2>Form</h2>
+            <form action="./submit.html" method="get">
+                <p>Enter Your First Name:
+                    <input type="text" id = "first-name" name="first-name"> 
+                </p>
+                <p>Enter Your Last Name:
+                    <input type="text" id = "last-name" name="last-name"> 
+                </p>
+                <p>Identify Your Gender: 
+                    <input type = "radio" id = "Gender" name = "Gender" value = "Female"> Female
+                    <input type = "radio" id = "Gender" name = "Gender" value = "Male"> Male
+                    <input type = "radio" id = "Gender" name = "Gender" value = "Nonbinary"> Nonbinary
+                </p>
+                <p>Enter your age (1 - 99):
+                    <input type = "number" name = "Age" id = "Age" min = "1" max = "99">
+                </p>
+                <button type = "submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
